@@ -1,5 +1,5 @@
-# To-Do App with Node.js & MongoDB
-## Basic To Do App
+# basic-blog-with-Nodejs
+## basic-blog-with-Nodejs
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/ardaydilek/basic-blog-with-Nodejs)
 
@@ -19,7 +19,7 @@
 - requires [Node.js](https://nodejs.org/) v18+ to run.
 - Install the dependencies and devDependencies.
 ```sh
-cd ToDoApp-with-NodeJS
+cd basic-blog-with-Nodejs
 npm i
 ```
 - [Before start the server make connection with your local mongodb database](https://mongoosejs.com/) (Change <USERNAME>, <PASSWORD>, <DBNAME> fields in app.js)
