@@ -1,0 +1,14 @@
+<%- include('partials/header') -%>
+
+<h1>Update</h1>
+<form action="/updated" method="post">
+    <div class="form-group">
+        <label for="floatingInput">Title</label>
+        <input class="form-control" type="text" name="updatedTitle" autocomplete="off" id="floatingInput" value = "<%= post.title %>">
+        <label for="floatingTextarea">Post</label>
+        <textarea class="form-control" name="uptatedBody" id="floatingTextarea" rows="5" cols="30" placeholder = "<%= post.body %>"><%= post.body %></textarea>
+    </div>
+        <button class="btn btn-primary" type="submit" name="updateButton" value = "<%= post._id %>">Update</button>
+</form>
+
+<%- include('partials/footer') -%>
